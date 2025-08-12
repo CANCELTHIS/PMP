@@ -1,0 +1,26 @@
+{
+  "name": "pmp",
+  "version": "1.0.0",
+  "description": "a project mananagment platform.",
+  "keywords": [
+    "PMP",
+    "BACKEND",
+    "API"
+  ],
+  "homepage": "https://github.com/CANCELTHIS/PMP#readme",
+  "bugs": {
+    "url": "https://github.com/CANCELTHIS/PMP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CANCELTHIS/PMP.git"
+  },
+  "license": "ISC",
+  "author": "Biruk Nigusie",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
