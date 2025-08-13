@@ -1,2 +1,23 @@
 *env secure info
-*npm install dot-env
+*npm install dotenv
+*professioal project structure
+  public:
+        static files
+  src:
+        controllers:logic
+        db:db related 
+        models:structure of data in db.
+        routes:
+        middlewares:happen in between.request sent and reach server.
+        utils: any thingthat can be reused(can also be called scripts or helpers).
+        validators:data validation.
+*git donsnt keep empity folders.
+* unopinionated:no hard rules to implement.
+* install specific version example:npm install express@4.4.3. npm install express@latest.
+*// import dotenv from "dotenv";
+// dotenv.config({
+//   path: "./.env", //by default root
+// });
+// let myusername = process.env.myusername;
+// console.log(myusername);
+// console.log("PMP/index.js loaded");
