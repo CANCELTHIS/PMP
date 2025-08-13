@@ -1,0 +1,2 @@
+*env secure info
+*npm install dot-env
