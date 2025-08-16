@@ -3,6 +3,10 @@ import cors from "cors";
 const app = express();
 app.use(express.json({ limit: "16kb" }));
 app.use(express.urlencoded({ limit: "16kb" }));
+app.get("/", (req, res) => {
+  console.log("Home page");
+  res.send("Hello there!!");
+});
 app.use(express.static("public"));
 //cors configration
 app.use(
@@ -13,7 +17,5 @@ app.use(
     allowedHeaders: ["Authorization", "Content-Type"],
   }),
 );
-app.get("/", (req, res) => {
-  console.log("Home page");
-});
+
 export default app;
