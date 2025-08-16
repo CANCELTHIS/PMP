@@ -86,3 +86,15 @@ server->send response or error(node have error class by default).they both have
 status code
 data
 message
+
+---
+
+env
+constants
+Here are the core advantages of using constants in an Express app (short and sharp):
+
+Consistency & No Typos – You avoid hard-coding strings everywhere, so "in_progress" is always spelled the same.
+
+Single Source of Truth – Update in one place (constants file), and the whole app gets the change automatically.
+
+Easy Validation & Schema Safety – Arrays like AvailableUserRole or availableTaskStatues make it simple to check inputs and restrict DB fields.
